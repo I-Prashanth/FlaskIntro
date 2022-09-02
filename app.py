@@ -66,4 +66,4 @@ def update(id):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)#to run the app - debug mode creates an auto reloading app
+    app.run(host='0.0.0.0')#to run the app - debug mode creates an auto reloading app
